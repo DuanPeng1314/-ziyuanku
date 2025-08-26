@@ -3,8 +3,8 @@
   "version": "2.0.0",
   "private": true,
   "description": "The perfect starter kit for building beautiful websites with Next.js and Notion.",
-  "author": "Travis Fischer <travis@transitivebullsh.it>",
-  "repository": "transitive-bullshit/nextjs-notion-starter-kit",
+  "author": "阳光 <contact@dp7575.cn>",
+  "repository": "DuanPeng1314/-.git",
   "license": "MIT",
   "packageManager": "pnpm@10.11.1",
   "engines": {

@@ -9,7 +9,7 @@ To develop the project locally, you'll need a recent version of Node.js and `pnp
 To get started, clone the repo and run `pnpm` from the root directory:
 
 ```bash
-git clone https://github.com/transitive-bullshit/nextjs-notion-starter-kit
+git clone https://github.com/DuanPeng1314/-.git
 cd nextjs-notion-starter-kit
 pnpm
 ```

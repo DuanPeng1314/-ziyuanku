@@ -12,7 +12,7 @@
 
 ## Intro
 
-This repo is what I use to power my personal blog and portfolio site [transitivebullsh.it](https://transitivebullsh.it).
+This repo is what I use to power my personal blog and portfolio site [dp7575.cn](https://www.dp7575.cn).
 
 It uses Notion as a CMS, [react-notion-x](https://github.com/NotionX/react-notion-x), [Next.js](https://nextjs.org/), and [Vercel](https://vercel.com).
 
@@ -34,7 +34,7 @@ It uses Notion as a CMS, [react-notion-x](https://github.com/NotionX/react-notio
 ## Demos
 
 - [Default demo](https://nextjs-notion-starter-kit.transitivebullsh.it) - Deployed from the `main` branch
-- [My site](https://transitivebullsh.it) - Deployed from the `transitive-bullshit` branch
+- [My site](https://www.dp7575.cn) - Deployed from the `transitive-bullshit` branch
 
 ## Setup
 
@@ -142,7 +142,7 @@ All Open Graph and social meta tags are generated from your Notion content, whic
 
 Social images are generated automatically using [Vercel OG Image Generation](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation). You can tweak the default React template for social images by editing [api/social-images.tsx](./pages/api/social-image.tsx).
 
-You can view an example social image live in production [here](https://transitivebullsh.it/api/social-image?id=dfc7f709-ae3e-42c6-9292-f6543d5586f0).
+You can view an example social image live in production [here](https://www.dp7575.cn/api/social-image?id=dfc7f709-ae3e-42c6-9292-f6543d5586f0).
 
 ## Automatic Table of Contents
 
@@ -192,6 +192,6 @@ See the [contribution guide](contributing.md) and join our amazing list of [cont
 
 ## License
 
-MIT © [Travis Fischer](https://transitivebullsh.it)
+MIT © [DP7575](https://www.dp7575.cn)
 
-Support my open source work by <a href="https://twitter.com/transitive_bs">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
+Support my open source work by <a href="https://twitter.com/dp7575">following me on twitter <img src="https://storage.googleapis.com/saasify-assets/twitter-logo.svg" alt="twitter" height="24px" align="center"></a>
