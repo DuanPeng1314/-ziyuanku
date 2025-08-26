@@ -19,8 +19,8 @@ export async function getPreviewImageMap(
   const urls: string[] = getPageImageUrls(recordMap, {
     mapImageUrl
   })
-    .concat([defaultPageIcon, defaultPageCover].filter(Boolean))
-    .filter(Boolean)
+    .concat([defaultPageIcon, defaultPageCover].filter((item): item is string => item != null))
+    .filter((url): url is string => url != null)
 
   const previewImagesMap = Object.fromEntries(
     await pMap(

@@ -20,7 +20,7 @@ const getNavigationLinkPages = pMemoize(
   async (): Promise<ExtendedRecordMap[]> => {
     const navigationLinkPageIds = (navigationLinks || [])
       .map((link) => link?.pageId)
-      .filter(Boolean)
+      .filter((pageId): pageId is string => pageId != null)
 
     if (navigationStyle !== 'default' && navigationLinkPageIds.length) {
       return pMap(
