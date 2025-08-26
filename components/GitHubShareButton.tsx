@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 export function GitHubShareButton() {
   return (
     <a
-      href='https://github.com/DuanPeng1314/nextjs-notion-starter-kit'
+      href='https://github.com/DuanPeng1314/-ziyuanku'
       target='_blank'
       rel='noopener noreferrer'
       className={styles.githubCorner}
